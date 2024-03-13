@@ -1,0 +1,85 @@
+/* Genel stiller */
+body {
+  padding-top: 56px;
+  background-color: #f8f9fa; /* Sayfa arka plan rengi */
+}
+
+/* Navbar stilleri */
+.navbar {
+  background-color: #ffffff; /* Navbar arka plan rengi */
+  border-radius: 10px; /* Kenar yuvarlaklığı */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Gölge efekti */
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+  color: #007bff; /* Navbar metin rengi */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #0056b3; /* Link üzerine gelindiğindeki metin rengi */
+}
+
+/* Ana başlık stilleri */
+#home {
+  padding: 100px 0;
+  text-align: center;
+}
+
+#home h1 {
+  color: white; /* Başlık metin rengi */
+}
+
+#home p {
+  color: #dee2e6; /* Alt başlık metin rengi */
+}
+
+/* Kutu stilleri */
+.section-box {
+  background-color: #ffffff; /* Kutu arka plan rengi */
+  border-radius: 10px; /* Kenar yuvarlaklığı */
+  box-shadow: 0 0 10px rgba(0,0, 0, 0, 0.1); /* Gölge efekti */
+  padding: 20px; /* İçerik boşluğu */
+  margin-bottom: 20px; /* Alt bölümler arası boşluk */
+}
+
+/* Metin stilleri */
+.section-box h2,
+.section-box p {
+  text-align: center; /* Metni ortala */
+}
+
+/* Form stilleri */
+.form-group {
+  margin-bottom: 1rem; /* Form elemanları arası boşluk */
+}
+
+/* Gönder düğmesi stilleri */
+.btn-primary {
+  background-color: #007bff; /* Düğme arka plan rengi */
+  border-color: #007bff; /* Düğme kenarlık rengi */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Hover arka plan rengi */
+  border-color: #0056b3; /* Hover kenarlık rengi */
+}
+
+/* Düğme üzerine gelme animasyonu */
+.btn {
+  transition: transform 0.3s ease; /* Düğme üzerine gelme animasyonu */
+}
+
+.btn:hover {
+  transform: translateY(-5px); /* Y ekseninde -5px kaydırma */
+}
+
+/* Navbar linklerinin rengi */
+.navbar-nav .nav-link {
+  color: #ffffff; /* Link metin rengi */
+}
+
+/* Navbar linklerinin hover rengi */
+.navbar-nav .nav-link:hover {
+  color: #ffffff; /* Link üzerine gelindiğindeki metin rengi */
+}
